@@ -26,7 +26,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup={
             "inline_keyboard": [[{
                 "text": "🚀 Открыть приложение",
-                "web_app": {"url": https://finguardmy.netlify.app}
+                "web_app": {"url": MINI_APP_URL}
             }]]
         }
     )
