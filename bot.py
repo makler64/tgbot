@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 # Конфигурация из переменных окружения
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-MINI_APP_URL = os.getenv("MINI_APP_URL", "https://finguardmy.netlify.app/")
+MINI_APP_URL = os.getenv("MINI_APP_URL", "https://finguardmy.netlify.app")
 PORT = int(os.getenv("PORT", 8080))
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
@@ -26,7 +26,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup={
             "inline_keyboard": [[{
                 "text": "🚀 Открыть приложение",
-                "web_app": {"url": MINI_APP_URL}
+                "web_app": {"url": https://finguardmy.netlify.app}
             }]]
         }
     )
